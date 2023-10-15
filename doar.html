@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/doar.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <title>JoyPetz</title>
+</head>
+
+<body>
+    <header>
+        <button id="menu-button" class="botao">Menu</button>
+        <nav id="menu">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="doar.html">Doar</a></li>
+                <li><a href="contato.html">Contato e Sobre</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <img src="assets/img/Logo-joypetz.png" width="180px" height="180px" style="margin-left:1300px;">
+
+    <main class="container">
+
+        <section id="imagemContainer">
+            <input type="file" id="inputFoto" accept="image/*" style="opacity: 0;">
+            <br>
+            <button id="botaoAdicionar">+</button>
+            <h3 style="color: orangered; margin-left: 60px; ">Adicionar Foto</h3>
+            <div id="imagemContainer" width="200px" height="200px"></div>
+        </section>
+
+        <div style="flex-direction: column; margin-right: 300px;">
+            <article>
+
+
+                <label>Digite um nome ...</label>
+
+                <br>
+                <input type="text" placeholder="Nome do animal">
+                <br>
+
+                <label>Sexo:</label>
+                <br>
+                <input type=" text"" placeholder="Fêmea / Macho">
+                <br>
+
+                <label>Raça:</label>
+                <br>
+                <input type="text" placeholder="Raça">
+                <br>
+
+                <label>Saúde:</label>
+                <br>
+                <input type="text" placeholder="Ótima / Boa / Ruim">
+                <br>
+
+                <label>Contato:</label>
+                <br>
+                <input type="tel" placeholder="Número de telefone com DDD">
+                <br>
+                <br>
+                <input type="text" placeholder="Email para contato">
+
+            </article>
+
+    </main>
+
+
+    <article style="margin-left: 220px;margin-top: 40px;">
+        <textarea type="text" placeholder="Adicionar descrição..."></textarea>
+        <br>
+        <br>
+       <a href="home.html"><button class="botao" style="font-size: 25px;" id="pub">Publicar</button></a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </article>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

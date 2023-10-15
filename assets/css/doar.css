@@ -1,0 +1,99 @@
+body{
+    background-color: #FFDEEE;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    justify-content: center;
+    margin-left:200px;
+}
+input{
+    background-color: #FF99CA;
+    border: 2px solid #FF2C9F;
+    border-radius: 10px;
+    outline: none;
+    width: 300px;
+}
+textarea{
+    background-color: #FF99CA;
+    border: 2px solid #FF2C9F;
+    border-radius: 10px;
+    width: 1000px;
+    height: 200px;
+    outline: none;
+}
+section{
+    border: 2px solid orangered;
+    background-color: rgb(255, 221, 0);
+    
+    margin-right: 90px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+/* Estilizando o menu */
+#menu {
+    background-color: #333;
+    color: #fff;
+    width: 250px;
+    height: 25%;
+    position: absolute;
+    top: 0;
+    left: -250px;
+    overflow-x: scroll;
+    padding-top: 20px;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu li {
+    padding: 10px;
+    text-align: center;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+#menu a:hover {
+    background-color: #555;
+}
+
+/*estilo do botão de menu*/
+
+.botao{
+    border: 2px solid #FF2C9F;
+    color: black;
+    background-color: #FF719F;
+    border-radius: 10px;
+    padding: 1px 3px;
+    font-size: medium;
+}
+
+#menu-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+button{
+    color:orangered;
+    border: 2px solid orangered;
+    padding:0px 60px 10px 60px;
+    border-radius: 50%;
+    background-color: orange;
+    font-size: 100px;
+    margin-left: 50px;
+}
